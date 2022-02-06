@@ -14,3 +14,59 @@ a {
 * {
   box-sizing: border-box;
 }
+
+table{
+  border-collapse: collapse;
+  margin: auto;
+}
+td{
+  padding: 0px;
+  border: 2px solid black;
+}
+h1{
+  text-align: center
+}
+h6{
+  text-align: center
+}
+.popup{
+  padding: 1vh;
+  display: flex;
+  justify-content: center;
+}
+.popupContent{
+  padding: 1vh;
+  top: -100px;
+  background-color: white;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.square {
+  background: #fff;
+  border: 0px solid black;
+  float: left;
+  font-size: 5vh;
+  font-weight: bold;
+  height: 10vh;
+  padding: 0;
+  text-align: center;
+  width: 10vh;
+}
+.solve{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.answers{
+  text-align: center;
+  width: 90%;
+  border: 1px solid black;
+  margin: auto;
+}
+.popupContent{
+  text-align: center
+}
+.left{
+  text-align: left;
+}
