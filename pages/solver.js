@@ -187,7 +187,7 @@ class Wordle extends React.Component {
       <h1>Wordle Helper</h1>
       <div className="popup">
       <Popup trigger={<button>how i work</button>}>
-        <div className="popupContent"><p className='left'>* Click in the letter area and type in your letters</p><p className='left'>* Click a letter to change it yellow</p><p className='left'>* Click it again to change it green</p><p className='left'>* Click solve!</p></div>
+        <div className="popupContent"><p className='left'>* Click in the letter area and type in your letters</p><p className='left'>* Click a letter to change it yellow</p><p className='left'>* Click it again to change it green</p><p className='left'>* Click solve!</p><p>* I'm still a work in progress so don't get mad at me if I break...</p></div>
       </Popup>
       </div>
         <table>
